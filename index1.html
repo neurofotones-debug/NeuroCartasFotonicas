@@ -1344,61 +1344,11 @@
             </div>
         </div>
         
-        <div class="neurofotina-avatar-wrap" id="neurofotinaAvatar" title="Hablar con NeuroFotina™">
-            <!-- Inline SVG Character Design -->
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
-                        <stop offset="0%" stop-color="#FFFFFF" />
-                        <stop offset="30%" stop-color="#F2EEF9" />
-                        <stop offset="65%" stop-color="#D46C8F" stop-opacity="0.15"/>
-                        <stop offset="100%" stop-color="#8E70C1" stop-opacity="0" />
-                    </radialGradient>
-                    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#FFFFFF" />
-                        <stop offset="55%" stop-color="#F2EEF9" />
-                        <stop offset="100%" stop-color="#8E70C1" />
-                    </linearGradient>
-                    <linearGradient id="goldGradient" x1="0%" y1="100%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#C5A059" />
-                        <stop offset="100%" stop-color="#E5C158" />
-                    </linearGradient>
-                    <filter id="softGlow">
-                        <feGaussianBlur stdDeviation="2.5" />
-                    </filter>
-                </defs>
-                
-                <!-- Ambient Energy Aura -->
-                <circle cx="50" cy="50" r="46" fill="url(#auraGlow)" />
-                
-                <!-- Main Luminous Body (Elegant Teardrop / Wisp shape) -->
-                <path d="M50 22 C68 22, 78 44, 78 60 C78 76, 66 88, 50 88 C34 88, 22 76, 22 60 C22 44, 32 22, 50 22 Z" fill="url(#bodyGradient)" />
-                
-                <!-- Inner Brilliant Core -->
-                <ellipse cx="50" cy="52" rx="16" ry="22" fill="#FFFFFF" opacity="0.65" filter="url(#softGlow)"/>
-                
-                <!-- Golden Accents (Flowing energy lines) -->
-                <path d="M22 60 C18 42, 34 32, 50 36" fill="none" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
-                <path d="M78 60 C82 42, 66 32, 50 36" fill="none" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
-                <path d="M38 84 C44 90, 56 90, 62 84" fill="none" stroke="url(#goldGradient)" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-
-                <!-- Friendly, Peaceful Face -->
-                <path d="M38 52 Q42 56.5 46 52" fill="none" stroke="#6B4E9E" stroke-width="2.2" stroke-linecap="round"/>
-                <path d="M54 52 Q58 56.5 62 52" fill="none" stroke="#6B4E9E" stroke-width="2.2" stroke-linecap="round"/>
-                <circle cx="50" cy="65" r="2.2" fill="#D46C8F" opacity="0.85" />
-                
-                <!-- Floating Animated Particles -->
-                <g fill="#E5C158">
-                    <circle cx="18" cy="34" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" /><animate attributeName="cy" values="34;28;34" dur="3s" repeatCount="indefinite" /></circle>
-                    <circle cx="82" cy="40" r="1.8"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite" /></circle>
-                    <circle cx="70" cy="76" r="2.2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="1.8s" repeatCount="indefinite" /><animate attributeName="cx" values="70;74;70" dur="4s" repeatCount="indefinite" /></circle>
-                </g>
-                <g fill="#FFFFFF">
-                    <circle cx="28" cy="74" r="1.5"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite" /></circle>
-                    <circle cx="50" cy="14" r="2.5"><animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite" /></circle>
-                </g>
-            </svg>
-        </div>
+        div class="neurofotina-avatar-wrap" id="neurofotinaAvatar">
+    <img src="images/neurofotina.png"
+         alt="NeuroFotina"
+         style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
+</div>
     </div>
 
     <div class="toast" id="toastNotification">
